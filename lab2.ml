@@ -20,9 +20,10 @@ programming in OCaml, including:
 Part 1: Types and type inference beyond atomic types
 
 Exercise 1: What are appropriate types to replace the ??? in the
-expressions below? Test your solution by uncommenting the examples
-(removing the `(*` and `*)` lines at start and end) and verifying that
-no typing error is generated.
+expressions below? For each expression, replace the ??? with the
+type. Test your solution by uncommenting the examples (removing the
+`(*` and `*)` lines at start and end) and verifying that no typing
+error is generated.
 ......................................................................*)
 
 let exercise1a : float * string =
@@ -65,7 +66,8 @@ let exercise1e : bool -> bool list =
 
 (*......................................................................
 Exercise 2: Update each expression below by changing the 0 in the last
-line so that it evaluates to `true`.
+line to an integer literal so that the expression as a whole evaluates
+to `true`.
 ......................................................................*)
 
 let exercise2a =
